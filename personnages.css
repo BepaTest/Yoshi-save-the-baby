@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "mariolettre";
+    src : url("lettremario.ttf");
+  }
+
+@font-face{
+    font-family: "yoshilettre";
+    src : url("lettreyoshi.ttf");
+  }
+ 
+ .wifeyoshi{
+    background-image: linear-gradient(67deg, #f0adea 50%, #f0adea 50%, #f0adea 100%);
+    background-size: 21.73px 51.19px;
+    }
+
+.babyyoshi{
+    background-image: linear-gradient(67deg, #2da0ed 50%, #2da0ed 50%, #2da0ed 100%);
+    background-size: 21.73px 51.19px;
+}
+
+.bowser{
+    background-image: linear-gradient(67deg, #ed2d2d 50%, #ed2d2d 50%, #ed2d2d 100%);
+    background-size: 21.73px 51.19px;
+}
+
+.waluigi{
+    background-image: linear-gradient(67deg, #723bad 50%, #723bad 50%, #723bad 100%);
+    background-size: 21.73px 51.19px;
+}
+
+h1{
+    background-image: linear-gradient(135deg, #12990e 50%, #12990e 50%, #12990e 100%);
+    background-size: 11.31px 11.31px;
+    text-align: center;
+    font-family: mariolettre;
+}
+
+p{
+    font-family: yoshilettre;
+    font-size: 25px;
+}
+
+.textep{
+    margin-top: 10%;
+}
