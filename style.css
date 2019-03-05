@@ -3,111 +3,84 @@
 
 
 body {
-background-image: linear-gradient(180deg, #05a300 25%, #118a29 25%, #118a29 50%, #05a300 50%, #05a300 75%, #118a29 75%, #118a29 );
-background-size: 80.00px 80.00px;
-height: 100%
+
+height: 100%;
 width: 100%;
 }
 
+html {
+	height: 100%;
+	height: 100%;
+
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
 /* img */
+img {
+width: 40%;
 
-.yoshi {
-	width: 40%;
-	z-index: 1000;
-	 margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
-  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
-}
-
-.container-fluid {
-	
-	width: 50%;
-	
-
+border-radius: 50%;
 
 }
+
+
+
+
+
 /* menu */
 
-
-ul {
-list-style-type: none;
-display: inline-block;
-margin
+p .textaccueil {
+	font-size: 12px;
+	opacity: 0;
 
 }
+.nes-btn:hover p {
+	opacity: 1;
+}
 
-.btn-secondary {
-	opacity: 0;
-	width: 50%;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	height: 50%;
+.facebook {
+	
+	right: 45%;
+	left: 45%;
+}
+
+
+.twitter {
+	right: 45%;
+	left: 45%;
+}
+
+.nes-btn {
+	
+	word-wrap: break-word;
+	width: 100%;
+	height: 100%;
+	opacity: 1;
 	background-color: red;
 	z-index: 100;
-	font-size: 25px;
-	border: 2px solid black;
-
-}
-.btn-primary {
-	opacity: 0;
-	width: 50%;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	height: 50%;
-	background-color: blue;
-	z-index: 100;
 	font-size: 20px;
-	color: black;
-	text-align: center;
 	border: 2px solid black;
 
 }
 
-.yoshi:hover .btn {
+.yoshi:hover  .nes-btn {
 	opacity: 1;
-	transition: 0.8s ease-out;
+	transition: 1.8s ease-out;
+	color: orange;
+    font-weight: bold;
+
+	
 
 }
 
 
 
-.btn-success  {
-	width: 50%;
-	left: 0;
-	height: 50%;
-	bottom: 0px;
-	position: absolute;
-	opacity: 0;
-	font-size: 20px;
-	background-color: yellow;
-	border: 2px solid black;
-	z-index: 60;
-}
-
-.btn-danger  {
-	width: 50%;
-	right: 0;
-	height: 50%;
-	bottom: 0px;
-	position: absolute;
-	opacity: 0;
-	background-color: cyan;
-	font-size: 20px;
-	border: 2px solid black;
-	z-index: 60;
-}
-
-.centered {
-	background-color: white;
-	position: absolute;
-	right: 25%;
-	height: 50%;
-	width: 50%;
-	top: 35%;
-	border: 2px solid black;
-	z-index: 50;
-}
 
 /* border */
 
@@ -116,4 +89,8 @@ margin
 	width: 100%;
 	background: black;
 	opacity: 0.8
+}
+
+.rem {
+	height: 100px;
 }
