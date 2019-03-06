@@ -35,8 +35,6 @@ html body {
 	cursor: auto;
 	background-size: cover;
 	height: 100%;
-	
-
 
 }
 
@@ -76,8 +74,6 @@ vertical-align: center;
  .btn a  {
 color: white;
 text-decoration: none;
-font-family: mariolettre;
-font-size: 20px;
 cursor: auto;
 
 
@@ -95,6 +91,7 @@ text-decoration: none;
 
 
 
+
 /* menu */
 
 .border2 {
@@ -102,6 +99,8 @@ text-decoration: none;
 	padding: 0 0 0 0;
 	display: none;
 	padding-top: 20px;
+	font-size: 30px;
+	font-family: 'yoshilettre'
 	
 	
 }
@@ -110,13 +109,12 @@ text-decoration: none;
 
 
  .btn {
-    font-family: 'yoshilettre';
+    font-family: 'mariolettre';
 	word-wrap: break-word;
 	width: 100%;
 	height: 200px;	
-	font-size: 20px;
 	border: 2px solid black;
-	font-size: 25px;
+	font-size: 35px;
 
 
 	
