@@ -71,7 +71,6 @@ html body{
     width: 100%;
     height: 35px;
     font-size: 20px;
-    border: 2px solid black;
     font-family: "mariolettre";  
 }
 
@@ -86,8 +85,8 @@ html body{
               transform: translateX(0);
     }
     100% {
-      -webkit-transform: translateX(100px);
-              transform: translateX(100px);
+      -webkit-transform: translateX(50px);
+              transform: translateX(50px);
     }
   }
   @keyframes slide-right {
@@ -96,8 +95,23 @@ html body{
               transform: translateX(0);
     }
     100% {
-      -webkit-transform: translateX(100px);
-              transform: translateX(100px);
+      -webkit-transform: translateX(50px);
+              transform: translateX(50px);
     }
   }
+
+  .fondrose{
+    background-color: #fe079d !important;
+  }
   
+  .fondbleu{
+    background-color: #2da0ed !important;
+  }
+
+  .fondrouge{
+    background-color: #ed2d2d !important;
+  }
+
+  .fondviolet{
+    background-color: #723bad !important;
+  }
