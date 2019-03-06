@@ -8,53 +8,66 @@
 
 html body {
 	background: orange;
-	width: auto;
+	width: 100%;
 	cursor: auto;
 	background-size: cover;
-	height: auto;
+	height: 100%;
+
+}
+
+.row {
+	margin: 0 0 0 0;
 }
 
 
 
 /* img */
-img {
-width: 40%;
-
-border-radius: 50%;
+img.Nintendo {
+	width: 40%;
+vertical-align: center;
 
 }
+
+ img.Yoshi {
+ 	margin-top: 25%;
+ 	margin-bottom: auto;
+width: 35%;
+vertical-align: center;
+border-radius: 50%;
+ /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+
+}
+
+button a  {
+color: white;
+text-decoration:none;
+} 
+
+
 
 
 
 
 /* menu */
 
-
-
-
-.facebook {
+.border2 {
 	
-	right: 0px;
+	padding: 0 0 0 0;
+	display: none;
 	
-}
-
-
-
-
-.twitter {
-	right: 1%;
 	
 }
 
-.nes-btn {
+
+ .nes-btn {
+	opacity: 1;
 	word-wrap: break-word;
 	width: 100%;
-	height: 200PX;
-	opacity: 1;
-	background-color: red;
-	z-index: 100;
+	height: 100%;	
 	font-size: 20px;
 	border: 2px solid black;
+	display: none;
 
 }
 
@@ -72,3 +85,30 @@ border-radius: 50%;
 }
 
 
+
+
+.
+
+/* text */
+
+.play1 {
+	margin-top: 150px;
+}
+
+.row.msg {
+	
+	width: 100%;
+	font-size: 30px;
+	padding-top: 50px;
+	height: 100%;
+}
+
+.nes-container {
+	background-color: white;
+	display: none;
+}
+
+video {
+	height: 100%;
+	width: 100%;
+}
