@@ -1,0 +1,11 @@
+@font-face{
+    font-family: "mariolettre";
+    src : url("lettremario.ttf");
+  }
+@font-face{
+    font-family: "yoshilettre";
+    src : url("lettreyoshi.ttf");
+  }
+  hi{
+    font-family: "mariolettre";  
+  }
