@@ -73,11 +73,22 @@ vertical-align: center;
 
 
 /* link */
-button a  {
+ .btn a  {
 color: white;
-text-decoration:none;
+text-decoration: none;
 font-family: mariolettre;
+font-size: 20px;
+cursor: auto;
+
+
 } 
+
+.btn a:hover {
+	color: white;
+text-decoration: none;
+
+
+}
 
 
 
@@ -99,12 +110,15 @@ font-family: mariolettre;
 
 
  .btn {
-
+    font-family: 'yoshilettre';
 	word-wrap: break-word;
 	width: 100%;
 	height: 200px;	
 	font-size: 20px;
 	border: 2px solid black;
+	font-size: 25px;
+
+
 	
 
 }
