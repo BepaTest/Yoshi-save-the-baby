@@ -2,32 +2,63 @@
 
 
 
-body {
 
-height: 100%;
-width: 100%;
+.back {
+	background: url('bgred.jpg');
+	border: 2px solid black;
+
 }
 
-html {
+.container-fluid {
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+html body {
+	 background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	width: 100%;
+	cursor: auto;
+	background-size: cover;
 	height: 100%;
-	height: 100%;
 
 }
 
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+.row {
+	margin: 0 0 0 0;
 }
+
 
 
 /* img */
-img {
-width: 40%;
+img.Nintendo {
 
-border-radius: 50%;
+	width: 40%;
+vertical-align: center;
 
 }
+
+ img.Yoshi {
+ 	margin-top: 25%;
+ 	margin-bottom: auto;
+width: 40%;
+
+vertical-align: center;
+
+ /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+
+}
+
+
+/* link */
+button a  {
+color: white;
+text-decoration:none;
+} 
+
 
 
 
@@ -35,49 +66,29 @@ border-radius: 50%;
 
 /* menu */
 
-p .textaccueil {
-	font-size: 12px;
-	opacity: 0;
-
-}
-.nes-btn:hover p {
-	opacity: 1;
-}
-
-.facebook {
+.border2 {
 	
-	right: 45%;
-	left: 45%;
-}
-
-
-.twitter {
-	right: 45%;
-	left: 45%;
-}
-
-.nes-btn {
+	padding: 0 0 0 0;
+	display: none;
+	padding-top: 20px;
 	
+	
+}
+
+
+
+
+ .nes-btn {
+
 	word-wrap: break-word;
 	width: 100%;
-	height: 100%;
-	opacity: 1;
-	background-color: red;
-	z-index: 100;
+	height: 200px;	
 	font-size: 20px;
 	border: 2px solid black;
-
-}
-
-.yoshi:hover  .nes-btn {
-	opacity: 1;
-	transition: 1.8s ease-out;
-	color: orange;
-    font-weight: bold;
-
 	
 
 }
+
 
 
 
@@ -91,6 +102,31 @@ p .textaccueil {
 	opacity: 0.8
 }
 
-.rem {
-	height: 100px;
+
+
+
+.
+
+/* text */
+
+.play1 {
+	margin-top: 150px;
+}
+
+.row.msg {
+	
+	width: 100%;
+	font-size: 30px;
+	padding-top: 50px;
+	height: 100%;
+}
+
+.nes-container {
+	background-color: white;
+	display: none;
+}
+
+video {
+	height: 100%;
+	width: 100%;
 }

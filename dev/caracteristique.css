@@ -1,23 +1,35 @@
+@font-face
+{
+    font-family: "yoshilettre";
+    src : url("lettreyoshi.ttf");
+}
+
+@font-face{
+    font-family: "mariolettre";
+    src : url("lettremario.ttf");
+  }
+
+.card
+{
+    margin-top : 35px;
+}
+
 .image
  {
-    width: 286px;
-    height: 200px;
+    width: 486px;
+    height: 300px;
     }
 
 .card-body
 
 {
-    background-color: rgb(20, 194, 20);
+    background-image:#12990e;
 }
 
-@font-face
-{
-    font-family: "mariofont";
-    src : url("dryoshiabibi.ttf");
-}
 
 p
 {
     font-family: "mariofont";
     font-size: 20px;
 }
+
