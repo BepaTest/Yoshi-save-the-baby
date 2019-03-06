@@ -9,6 +9,29 @@
     src : url("lettremario.ttf");
   }
 
+  .titre, .vert{
+    background-color: #12990e;
+    color: white;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mx-auto
+{
+    width : 250px;
+    height: 250px;
+}
+
+h1
+{
+    font-family: "mariolettre";
+}
+
+body
+{
+    background-color: rgb(253, 203, 109);
+}
 .card
 {
     margin-top : 35px;
@@ -29,7 +52,33 @@
 
 p
 {
-    font-family: "mariofont";
+    font-family: "yoshilettre";
     font-size: 20px;
 }
 
+.slide-bck-center {
+	-webkit-animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: slide-bck-center 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@-webkit-keyframes slide-bck-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(-400px);
+              transform: translateZ(-400px);
+    }
+  }
+  @keyframes slide-bck-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(-400px);
+              transform: translateZ(-400px);
+    }
+  }
+  
