@@ -14,10 +14,27 @@ p{
   }
 
 /*Navbar*/
+@font-face{
+    font-family: "mariofont";
+    src : url("lettremario.ttf");
+  }
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    border:none;
+}
+
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: rgb(253, 203, 109);
+    margin-bottom: 5px;
+}
+
 .nav-link
 {
-	font-family: "mariolettre";	
-	background-image:url("bgred.jpg");
+	font-family: "mariofont";	
 	color: rgb(253, 203, 109);
 }
 
@@ -25,6 +42,7 @@ p{
 {
 	color: #12990e;
 }
+
 .navbar
 {
 	background-image:url("bgred.jpg");
@@ -32,6 +50,10 @@ p{
 	padding-bottom: 0px;
 }
 
+.navbar-toggler
+{
+	color: rgb(253, 203, 109);	
+}
 
 .container-fluid
 {
@@ -60,6 +82,7 @@ p{
 {
     padding-left: 30px;
 }
+
 
 /*background*/
 
