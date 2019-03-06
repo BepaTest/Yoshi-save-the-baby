@@ -3,14 +3,14 @@
     src : url("lettremario.ttf");
   }
 @font-face{
-    font-family: "yoshilettre";
-    src : url("lettreyoshi.ttf");
+    font-family: "Doctor_Soos";
+    src : url("Doctor Soos Light 1.1.ttf");
   }
 h1, h2{
     font-family: "mariolettre";  
   }
 p{
-    font-family: "yoshilettre";  
+    font-family: "Doctor_Soos";  
   }
 
 /*Navbar*/
