@@ -6,6 +6,69 @@
     font-family: "yoshilettre";
     src : url("lettreyoshi.ttf");
   }
-  hi{
+h1, h2{
     font-family: "mariolettre";  
   }
+p{
+    font-family: "yoshilettre";  
+  }
+
+/*Navbar*/
+.nav-link
+{
+	font-family: "mariolettre";	
+	background-image:url("bgred.jpg");
+	color: rgb(253, 203, 109);
+}
+
+.nav-link:hover
+{
+	color: #12990e;
+}
+.navbar
+{
+	background-image:url("bgred.jpg");
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+.container-fluid
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.element:hover {
+	cursor: pointer;
+	}
+
+	.translate {
+		transition-property: top;
+		-webkit-transition-property: top;
+		transition-duration: .5s;
+		transition-timing-function: ease-out;
+		top: 0;
+		position: relative;
+		}
+		
+	.translate:hover {
+		top: 30px;
+        }
+        
+.img-circle
+{
+    padding-left: 30px;
+}
+
+/*background*/
+
+.header, .vert{
+    background-color: #12990e;
+    color: white;
+}
+
+#enfance, #etudes, #etPuis
+{
+    background-color: rgb(253, 203, 109);
+}
