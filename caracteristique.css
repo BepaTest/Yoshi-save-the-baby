@@ -1,21 +1,13 @@
-.element:hover {
-	cursor: pointer;
-	}
+@font-face
+{
+    font-family: "yoshilettre";
+    src : url("lettreyoshi.ttf");
+}
 
-	.translate {
-		transition-property: top;
-		-webkit-transition-property: top;
-		transition-duration: .5s;
-		transition-timing-function: ease-out;
-		top: 0;
-		position: relative;
-		}
-		
-	.translate:hover {
-		top: 30px;
-		}
-
-
+@font-face{
+    font-family: "mariolettre";
+    src : url("lettremario.ttf");
+  }
 
 .card
 {
@@ -34,14 +26,10 @@
     background-color: rgb(20, 194, 20);
 }
 
-@font-face
-{
-    font-family: "mariofont";
-    src : url("dryoshiabibi.ttf");
-}
 
 p
 {
     font-family: "mariofont";
     font-size: 20px;
 }
+
