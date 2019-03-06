@@ -156,25 +156,35 @@ text-decoration: none;
 
 
 /* text */
-
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
 
 
 .row.msg {
 	
 	width: 100%;
-	font-size: 40px;
+	font-size: 32px;
 	padding-top: 50px;
 	height: 100%;
 	font-family: 'yoshilettre';
 }
 
-.nes-container {
-	background: white;
+.nes-container{
+	background-color: black;
 	display: none;
-	border: 2px solid black;
+	border: 2px solid black;color: white;
+
 }
 
 video {
 	height: 100%;
 	width: 100%;
 }
+
+.nocol {
+padding-right: 0px;
+	padding-left: 0px;
+}
+
