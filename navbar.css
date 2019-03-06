@@ -6,15 +6,21 @@
 .nav-link
 {
 	font-family: "mariofont";	
+	background-image:url("bgred.jpg");
+	color: rgb(253, 203, 109);
 }
 
-
+.nav-link:hover
+{
+	color: #12990e;
+}
 .navbar
 {
-	background-color: rgb(253, 203, 109);
+	background-image:url("bgred.jpg");
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+
 
 .container-fluid
 {
