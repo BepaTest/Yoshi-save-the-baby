@@ -40,9 +40,6 @@ html body {
 
 
 
-.row {
-	margin: 0 0 0 0;
-}
 
 
 
@@ -60,9 +57,10 @@ vertical-align: center;
  	margin-top: 25%;
  	margin-bottom: auto;
 width: 40%;
-border-bottom: 10px solid black;
-
+border: 5px solid black;
+min-height: 0;
 vertical-align: center;
+background-color: white;
 
  /* poussé de la moitié de hauteur de viewport */
   transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
@@ -116,12 +114,23 @@ text-decoration: none;
 	width: 100%;
 	height: 200px;	
 	border: 2px solid black;
-	font-size: 18px;
+	font-size: 35px;
 	white-space: normal;
 
 
 	
 
+}
+
+.btn-warning {
+	color: white !important;
+}
+
+
+
+.btnyosh {
+	position: absolute;
+	top: 0%
 }
 
  .btn-success {
@@ -144,25 +153,23 @@ text-decoration: none;
 
 
 
-.
+
 
 /* text */
 
-.play1 {
-	margin-top: 150px;
-}
+
 
 .row.msg {
 	
 	width: 100%;
-	font-size: 30px;
+	font-size: 40px;
 	padding-top: 50px;
 	height: 100%;
 	font-family: 'yoshilettre';
 }
 
 .nes-container {
-	background-color: #12990e;
+	background: white;
 	display: none;
 	border: 2px solid black;
 }
