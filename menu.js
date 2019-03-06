@@ -2,8 +2,8 @@ $(document).ready(function(){
   $(".play").click(function(){
     $(".play").hide(1000);
   });
-  $("#show").click(function(){
-    $(".border2").show(1000).css('display', 'flex');
+  $("#show").hover(function(){
+    $(".border2").show(500).css('display', 'flex');
   });
    $("#show").click(function(){
     $(".nes-container").show(1000).css('display', 'flex');
