@@ -6,9 +6,12 @@ $(document).ready(function(){
     $(".border2").show(500).css('display', 'flex');
   });
    $("#show1").click(function(){
-    $(".nes-container").show(1000).css('display', 'flex');
+    $(".switch").show(10).css('display', 'flex');
   });
   $("#show1").click(function(){
-    $(".border2").show(1000).css('display', 'flex');
+    $(".border2").show(10).css('display', 'flex');
+  });
+  $("#show1").click(function(){
+    $(".nes-container").show(10).css('display', 'flex');
   });
 });

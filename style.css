@@ -54,17 +54,16 @@ vertical-align: center;
 }
 
  img.Yoshi {
- 	margin-top: 25%;
+ 
  	margin-bottom: auto;
 width: 40%;
-border: 5px solid black;
 min-height: 0;
 vertical-align: center;
-background-color: white;
 
- /* poussé de la moitié de hauteur de viewport */
-  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
 
+.play1 {
+	margin-top: 5%;
 }
 
 
@@ -165,7 +164,7 @@ text-decoration: none;
 .row.msg {
 	
 	width: 100%;
-	font-size: 32px;
+	
 	padding-top: 50px;
 	height: 100%;
 	font-family: 'yoshilettre';
@@ -176,15 +175,35 @@ text-decoration: none;
 	display: none;
 	border: 2px solid black;color: white;
 
+
+	
+
 }
 
-video {
-	height: 100%;
-	width: 100%;
+h2 {
+
+	font-size: 1.9em;
+	
 }
+
+
 
 .nocol {
 padding-right: 0px;
 	padding-left: 0px;
 }
+
+.switch {
+	height:100%;
+	
+	display: none;
+	
+}
+
+.switch2 {
+	height: 100%;
+	display: none;
+}
+
+
 
