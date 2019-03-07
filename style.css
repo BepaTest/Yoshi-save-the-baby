@@ -1,0 +1,215 @@
+
+@font-face{
+    font-family: "mariolettre";
+    src : url("polices/lettremario.ttf");
+  }
+@font-face{
+    font-family: "yoshilettre";
+    src : url("polices/lettreyoshi.ttf");
+  }
+
+
+
+/* background */
+
+
+
+
+.back {
+	background: url('images/bgred.jpg');
+	border: 2px solid black;
+
+}
+
+.container-fluid {
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+html body {
+	 background-color: rgb(253, 203, 109);
+	width: 100%;
+	cursor: auto;
+	background-size: cover;
+	height: 100%;
+
+}
+
+
+
+
+
+
+/* img */
+img.Nintendo {
+
+	width: 50%;
+	height: 100%;
+
+vertical-align: center;
+
+}
+
+ img.Yoshi {
+ 
+ 	margin-bottom: auto;
+width: 40%;
+min-height: 0;
+vertical-align: center;
+
+}
+
+.play1 {
+	margin-top: 5%;
+}
+
+
+/* link */
+ .btn a  {
+color: white;
+text-decoration: none;
+cursor: auto;
+
+
+} 
+
+
+
+.btn a:hover {
+	color: white;
+text-decoration: none;
+
+
+}
+
+
+
+
+
+
+
+/* menu */
+
+.border2 {
+	
+	padding: 0 0 0 0;
+	display: none;
+	padding-top: 20px;
+	font-size: 30px;
+	font-family: 'yoshilettre'
+	
+	
+}
+
+
+
+
+ .btn {
+    font-family: 'mariolettre';
+	word-wrap: break-word;
+	width: 100%;
+	height: 200px;	
+	border: 2px solid black;
+	font-size: 35px;
+	white-space: normal;
+
+
+	
+
+}
+
+.btn-warning {
+	color: white !important;
+}
+
+
+
+.btnyosh {
+	position: absolute;
+	top: 0%
+}
+
+ .btn-success {
+	background-color: #12990e;
+}
+
+
+
+
+
+/* border */
+
+.border {
+	height: 60px;
+	width: 100%;
+	background: black;
+	opacity: 0.8
+}
+
+
+
+
+
+
+/* text */
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+.row.msg {
+	padding-bottom: 50px;
+	width: 100%;
+	
+	padding-top: 50px;
+	height: 100%;
+	font-family: 'yoshilettre';
+}
+
+.nes-container{
+	background-color: black;
+	display: none;
+	border: 2px solid black;color: white;
+	
+
+
+	
+
+}
+
+#imgswitch {
+	min-height: 0;
+	min-width: 0;
+}
+
+h2 {
+
+	font-size: 1.9em;
+	
+}
+
+
+
+.nocol {
+padding-right: 0px;
+	padding-left: 0px;
+}
+
+.switch {
+	height:100%;
+	
+	display: none;
+	
+}
+
+.switch2 {
+	height: 100%;
+	display: none;
+}
+
+
+
