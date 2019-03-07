@@ -8,6 +8,13 @@
 	src: url('lettremario.ttf');
 }
 
+.container-fluid {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 .nav-item {
     margin-left: 50px;
 }
@@ -15,10 +22,12 @@
 h1, h2 {
     text-align: center;
     font-family: mario;
+    background-color: #12990e;
 }
 
-p{
-        font-family: yoshi;
+.texte{
+    font-family: yoshi;
+    background-color: #12990e;
 }
 
 img {
@@ -28,7 +37,8 @@ img {
 
 .card {
     max-width: 100%;
-    height: auto;  
+    height: auto; 
+    text-align: center;
 }
 
 .console {
