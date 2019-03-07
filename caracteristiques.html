@@ -3,68 +3,77 @@
   
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href= "navbar.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="caracteristique.css"/>
   <title>Yoshi : Save the Baby</title>
 </head>
 
-<body>
-        <div class="container-fluid">
-    <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="yoshi2.png" alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#accueil"><img src="oeuf2.png" class="element img-circle translate" alt="oeuf">Accueil <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#histoire"><img src="oeuf2.png" class="element img-circle translate" alt="oeuf">Histoire</a>                      
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#caracteristiques"><img src="oeuf2.png" class="element img-circle translate" alt="oeuf">Caractéristiques</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#personnages"><img src="oeuf2.png" class="element img-circle translate" alt="oeuf">Personnages</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#jeu"><img src="oeuf2.png" class="element img-circle translate" alt="oeuf">Jeu</a>
-                    </li>
-                  </ul>
-                </div>
-            </nav>
-    </header>
-  <h1>Caractéristiques</h1>
 
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <a class="navbar-brand bounce-left" href="#"><img src="images/yoshi2.png" alt="logo"></a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" class="background">
+            <ul class="navbar-nav mr-auto bounce-left">
+              <li class="nav-item active">
+                <a class="nav-link" href="#accueil"><img src="images/oeuf2.png" class="element img-circle translate" alt="oeuf">Accueil <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#histoire"><img src="images/oeuf2.png" class="element img-circle translate" alt="oeuf">Histoire</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#caracteristiques"><img src="images/oeuf2.png" class="element img-circle translate" alt="oeuf">Caracteristiques</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#personnages"><img src="images/oeuf2.png" class="element img-circle translate" alt="oeuf">Personnages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#jeu"><img src="images/oeuf2.png" class="element img-circle translate" alt="oeuf">Jeu</a>
+              </li>
+            </ul>
+            </form>
+          </div>
+        </nav>
+    </header>
+    <div class="text-white titre">
+        <img class="mx-auto d-block" src="images/yoshiessai.png"  alt="YoshiHistory"/>
+        <div class="container text-center">
+        <h1>Caracteristiques</h1>
+        </div>
+    </div>
+
+  <div class="container-fluid">  
     <div class="container">
-        <div class="row justify-content-md-center">
+        <div class="row justify-content-md-center ">
             <div class="col-md-auto">
-              <div class="card" style="width: 35rem;">
-                <img src="jump.gif" class="image" alt="yoshijump">
-                    <div class="card-body">
-                      <p class="card-text">Yoshi peut faire des bons de géants ! Dans "Yoshi: Save the Baby", faites un double saut et accédez à des mondes cachés !</p>
-                    </div>                  
+              <div class="card " style="width: 30rem;">
+                <img src="images/jump.gif" class="image" alt="yoshijump">
+                  <div class="card-body">
+                    <p class="card-text">Yoshi peut faire des bons de géants ! Dans "Yoshi: Save the Baby", faites un double saut et accédez à des mondes cachés !</p>
+                  </div>                  
               </div>      
             </div>
             <div class="col-md-auto">
               <div class="card" style="width: 30rem;">
-                <img src="eat.gif" class="image" alt="yoshieat">
+                <img src="images/eat.gif" class="image" alt="yoshieat">
                   <div class="card-body">
                     <p class="card-text">Yoshi est un glouton ! Dans "Yoshi : Save the Baby", goûtez aux nombreux fruits mais attention : Tous ne sont pas comestibles</p>
                   </div>
-                </div>       
+              </div>       
             </div>
-          </div>
+        </div>
           
         <div class="row justify-content-md-center">             
           <div class="col-md-auto">
             <div class="card" style="width: 30rem;">
-              <img src="vomit.gif" class="image" alt="yoshi">
+              <img src="images/vomit.gif" class="image" alt="yoshi">
                 <div class="card-body">
                   <p class="card-text">Dans "Yoshi : Save the Baby", une fois l'objet ingurgité, Yoshi peut s'en servir de projectiles pour tuer ses nouveaux ennemis !</p>
                 </div>
@@ -72,7 +81,7 @@
           </div>
           <div class="col-md-auto">
             <div class="card" style="width: 30rem;">
-              <img src="fly.gif" class="image" alt="yoshifly">
+              <img src="images/fly.gif" class="image" alt="yoshifly">
                 <div class="card-body">
                   <p class="card-text">Dans "Yoshi : Save the Baby", débloquez le mode aérien, faites voler votre Yoshi et découvrez de nouvelles fonctionnalités !</p>
                 </div>                                   
@@ -80,13 +89,53 @@
           </div>    
         </div>
       </div>
+      <br />
+      <br />
+      <div class="container">
+        <div class="row justify-content-center ">
+          <div class="col- heartbeat">
+            <button type="button" class="btn btn-danger"> <img src="images/oeuf2.png" class="element img-circle translate" alt="oeuf">Continuez l aventure !</button>
+          </div>        
+        </div>
+      </div>
+  </div>
+    <br />
+    <br />
+  <footer>
+      <div class="container-fluid page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+                <div class="row py-0">
+                  <div class="col-sm-1 hidden-md-down"></div>
+                  <div class="col-sm-11 text-white">
+                    <div><h4></h4>
+                        <p> <span class="header-font"></span><span class="header-font"></span>YoshiSaveTheBaby@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+              <div class="d-inline-block">
+                <div class="bg-circle-outline d-inline-block" style="background-color:#3b5998">
+                  <a href="https://www.facebook.com/"><i class="fa fa-2x fa-fw fa-facebook text-white"></i></a>
+                </div>
+                <div class="bg-circle-outline d-inline-block" style="background-color:#4099FF">
+                  <a href="https://twitter.com/"><i class="fa fa-2x fa-fw fa-twitter text-white"></i></a>
+                </div>    
+                <div class="bg-circle-outline d-inline-block" style="background-color:#0077B5">
+                  <a href="https://www.linkedin.com/company/"><i class="fa fa-2x fa-fw fa-linkedin text-white"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+     
+  </footer>  
+     
+      
 
-
-<footer>
-
-
-</footer>
-</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

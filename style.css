@@ -1,11 +1,11 @@
 
 @font-face{
     font-family: "mariolettre";
-    src : url("lettremario.ttf");
+    src : url("polices/lettremario.ttf");
   }
 @font-face{
     font-family: "yoshilettre";
-    src : url("lettreyoshi.ttf");
+    src : url("polices/lettreyoshi.ttf");
   }
 
 
@@ -16,7 +16,7 @@
 
 
 .back {
-	background: url('bgred.jpg');
+	background: url('images/bgred.jpg');
 	border: 2px solid black;
 
 }
@@ -54,17 +54,16 @@ vertical-align: center;
 }
 
  img.Yoshi {
- 	margin-top: 25%;
+ 
  	margin-bottom: auto;
 width: 40%;
-border: 5px solid black;
 min-height: 0;
 vertical-align: center;
-background-color: white;
 
- /* poussé de la moitié de hauteur de viewport */
-  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
 
+.play1 {
+	margin-top: 5%;
 }
 
 
@@ -163,9 +162,9 @@ text-decoration: none;
 
 
 .row.msg {
-	
+	padding-bottom: 50px;
 	width: 100%;
-	font-size: 32px;
+	
 	padding-top: 50px;
 	height: 100%;
 	font-family: 'yoshilettre';
@@ -175,16 +174,42 @@ text-decoration: none;
 	background-color: black;
 	display: none;
 	border: 2px solid black;color: white;
+	
+
+
+	
 
 }
 
-video {
-	height: 100%;
-	width: 100%;
+#imgswitch {
+	min-height: 0;
+	min-width: 0;
 }
+
+h2 {
+
+	font-size: 1.9em;
+	
+}
+
+
 
 .nocol {
 padding-right: 0px;
 	padding-left: 0px;
 }
+
+.switch {
+	height:100%;
+	
+	display: none;
+	
+}
+
+.switch2 {
+	height: 100%;
+	display: none;
+}
+
+
 
