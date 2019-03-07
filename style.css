@@ -174,10 +174,16 @@ text-decoration: none;
 	background-color: black;
 	display: none;
 	border: 2px solid black;color: white;
+	
 
 
 	
 
+}
+
+#imgswitch {
+	min-height: 0;
+	min-width: 0;
 }
 
 h2 {
