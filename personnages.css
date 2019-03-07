@@ -1,11 +1,11 @@
 @font-face{
     font-family: "mariolettre";
-    src : url("lettremario.ttf");
+    src : url("polices/lettremario.ttf");
   }
 
 @font-face{
     font-family: "yoshilettre";
-    src : url("lettreyoshi.ttf");
+    src : url("polices/lettreyoshi.ttf");
   }
  
  .wifeyoshi{
@@ -29,7 +29,6 @@
 }
 
 h1{
-    background-image: linear-gradient(135deg, #12990e 50%, #12990e 50%, #12990e 100%);
     background-size: 11.31px 11.31px;
     text-align: center;
     font-family: mariolettre;
@@ -38,6 +37,7 @@ h1{
 p{
     font-family: yoshilettre;
     font-size: 20px;
+    color: white;
 }
 
 .textep{
@@ -115,3 +115,8 @@ html body{
   .fondviolet{
     background-color: #723bad !important;
   }
+
+.yoshia{
+  width: 250px;
+  height: 250px;
+}
