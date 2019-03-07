@@ -1,11 +1,11 @@
 
 @font-face{
     font-family: "mariolettre";
-    src : url("lettremario.ttf");
+    src : url("polices/lettremario.ttf");
   }
 @font-face{
     font-family: "yoshilettre";
-    src : url("lettreyoshi.ttf");
+    src : url("polices/lettreyoshi.ttf");
   }
 
 
@@ -16,7 +16,7 @@
 
 
 .back {
-	background: url('bgred.jpg');
+	background: url('images/bgred.jpg');
 	border: 2px solid black;
 
 }
@@ -162,7 +162,7 @@ text-decoration: none;
 
 
 .row.msg {
-	
+	padding-bottom: 50px;
 	width: 100%;
 	
 	padding-top: 50px;
