@@ -452,3 +452,12 @@ h1
 {
     font-family: "mariolettre";
 }
+
+  .page-footer {
+     background-image: url('images/bgred.jpg');
+     
+}
+.page-footer p{
+	font-family: doctor;
+}
+	
