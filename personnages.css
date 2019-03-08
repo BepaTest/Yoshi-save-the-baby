@@ -65,7 +65,7 @@ html body{
     background-color: rgb(253, 203, 109);
 }
 
-.btn {
+.haut {
 
     word-wrap: break-word;
     width: 100%;
@@ -118,10 +118,14 @@ html body{
 
 .yoshia{
   width: 250px;
-  height: 250px;
+  margin-top: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
+.mx-auto{
 
+} 
 
 
 .yoshia{
@@ -151,4 +155,300 @@ html body{
             transform: translateY(0);
     opacity: 1;
   }
+}
+
+/* NAVBAR */
+
+
+
+.navbar-toggler{
+  width: 47px;
+  height: 34px;
+  border:none;
+}
+
+.navbar-toggler .line{
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: rgb(253, 203, 109);
+  margin-bottom: 5px;
+}
+
+.nav-link
+{
+font-family: "mariolettre";	
+color: rgb(253, 203, 109);
+}
+
+.nav-link:hover
+{
+color: #12990e;
+}
+
+.navbar
+{
+background-image:url("images/bgred.jpg");
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.navbar-toggler
+{
+color: rgb(253, 203, 109);	
+}
+
+.container-fluid
+{
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.element:hover {
+cursor: pointer;
+}
+
+.translate {
+  transition-property: top;
+  -webkit-transition-property: top;
+  transition-duration: .5s;
+  transition-timing-function: ease-out;
+  top: 0;
+  position: relative;
+  }
+  
+.translate:hover {
+  top: 30px;
+      }
+      
+.img-circle
+{
+  padding-left: 30px;
+}
+
+.bounce-left {
+-webkit-animation: bounce-left 0.8s both;
+        animation: bounce-left 0.8s both;
+}
+
+@-webkit-keyframes bounce-left {
+0% {
+  -webkit-transform: translateX(-48px);
+      transform: translateX(-48px);
+  -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+  opacity: 1;
+}
+24% {
+  opacity: 1;
+}
+40% {
+  -webkit-transform: translateX(-26px);
+      transform: translateX(-26px);
+  -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+}
+65% {
+  -webkit-transform: translateX(-13px);
+      transform: translateX(-13px);
+  -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+}
+82% {
+  -webkit-transform: translateX(-6.5px);
+      transform: translateX(-6.5px);
+  -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+}
+93% {
+  -webkit-transform: translateX(-4px);
+      transform: translateX(-4px);
+  -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+}
+25%,
+55%,
+75%,
+87%,
+98% {
+  -webkit-transform: translateX(0px);
+      transform: translateX(0px);
+  -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+}
+100% {
+  -webkit-transform: translateX(0px);
+      transform: translateX(0px);
+  -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+  opacity: 1;
+}
+}
+@keyframes bounce-left {
+0% {
+  -webkit-transform: translateX(-48px);
+      transform: translateX(-48px);
+  -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+  opacity: 1;
+}
+24% {
+  opacity: 1;
+}
+40% {
+  -webkit-transform: translateX(-26px);
+      transform: translateX(-26px);
+  -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+}
+65% {
+  -webkit-transform: translateX(-13px);
+      transform: translateX(-13px);
+  -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+}
+82% {
+  -webkit-transform: translateX(-6.5px);
+      transform: translateX(-6.5px);
+  -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+}
+93% {
+  -webkit-transform: translateX(-4px);
+      transform: translateX(-4px);
+  -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+}
+25%,
+55%,
+75%,
+87%,
+98% {
+  -webkit-transform: translateX(0px);
+      transform: translateX(0px);
+  -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+}
+100% {
+  -webkit-transform: translateX(0px);
+      transform: translateX(0px);
+  -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+  opacity: 1;
+}
+}
+
+
+/* BOUTON */
+
+.essaifin
+{
+  color: white;
+  font-family: "mariolettre";
+  border: solid;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+
+.buttoncenter
+{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heartbeat {
+	-webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes heartbeat {
+	from {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	  -webkit-transform-origin: center center;
+			  transform-origin: center center;
+	  -webkit-animation-timing-function: ease-out;
+			  animation-timing-function: ease-out;
+	}
+	10% {
+	  -webkit-transform: scale(0.91);
+			  transform: scale(0.91);
+	  -webkit-animation-timing-function: ease-in;
+			  animation-timing-function: ease-in;
+	}
+	17% {
+	  -webkit-transform: scale(0.98);
+			  transform: scale(0.98);
+	  -webkit-animation-timing-function: ease-out;
+			  animation-timing-function: ease-out;
+	}
+	33% {
+	  -webkit-transform: scale(0.87);
+			  transform: scale(0.87);
+	  -webkit-animation-timing-function: ease-in;
+			  animation-timing-function: ease-in;
+	}
+	45% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	  -webkit-animation-timing-function: ease-out;
+			  animation-timing-function: ease-out;
+	}
+  }
+  @keyframes heartbeat {
+	from {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	  -webkit-transform-origin: center center;
+			  transform-origin: center center;
+	  -webkit-animation-timing-function: ease-out;
+			  animation-timing-function: ease-out;
+	}
+	10% {
+	  -webkit-transform: scale(0.91);
+			  transform: scale(0.91);
+	  -webkit-animation-timing-function: ease-in;
+			  animation-timing-function: ease-in;
+	}
+	17% {
+	  -webkit-transform: scale(0.98);
+			  transform: scale(0.98);
+	  -webkit-animation-timing-function: ease-out;
+			  animation-timing-function: ease-out;
+	}
+	33% {
+	  -webkit-transform: scale(0.87);
+			  transform: scale(0.87);
+	  -webkit-animation-timing-function: ease-in;
+			  animation-timing-function: ease-in;
+	}
+	45% {
+	  -webkit-transform: scale(1);
+			  transform: scale(1);
+	  -webkit-animation-timing-function: ease-out;
+			  animation-timing-function: ease-out;
+	}
+  }
+
+
+  .titre, .vert{
+    background-color: #12990e;
+    color: white;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.mx-auto
+{
+    width : 250px;
+    height : 250px;
+
+}
+
+h1
+{
+    font-family: "mariolettre";
 }
