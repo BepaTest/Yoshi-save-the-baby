@@ -169,10 +169,12 @@ h2{
   
    .page-footer {
      background-image: url('images/bgred.jpg');
-font-family: doctor;   
      
 }
-
+.page-footer p{
+	font-family: doctor;
+}
+	
  .btn
 {
   color: white;
