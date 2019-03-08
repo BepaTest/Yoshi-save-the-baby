@@ -127,10 +127,7 @@ text-decoration: none;
 
 
 
-.btnyosh {
-	position: absolute;
-	top: 0%
-}
+
 
  .btn-success {
 	background-color: #12990e;
@@ -170,10 +167,10 @@ text-decoration: none;
 	font-family: 'yoshilettre';
 }
 
-.nes-container{
+.containerimg{
 	background-color: black;
 	display: none;
-	border: 2px solid black;color: white;
+	border: 10px solid black;color: white;
 	
 
 
@@ -210,6 +207,8 @@ padding-right: 0px;
 	height: 100%;
 	display: none;
 }
+
+
 
 
 

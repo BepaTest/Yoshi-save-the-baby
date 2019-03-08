@@ -1,11 +1,165 @@
 @font-face{
-  font-family: "mariofont";
-  src : url("polices/lettremario.ttf");
-}
+    font-family: "mariolettre";
+    src : url("polices/lettremario.ttf");
+  }
+
 @font-face{
-  font-family: "yoshilettre";
-  src : url("polices/lettreyoshi.ttf")
+    font-family: "yoshilettre";
+    src : url("polices/lettreyoshi.ttf");
+  }
+ 
+ .wifeyoshi{
+    background-image: linear-gradient(67deg, #FF0099 50%, #FF0099 50%, #FF0099 100%);
+    background-size: 21.73px 51.19px;
+    }
+
+.babyyoshi{
+    background-image: linear-gradient(67deg, #2da0ed 50%, #2da0ed 50%, #2da0ed 100%);
+    background-size: 21.73px 51.19px;
 }
+
+.bowser{
+    background-image: linear-gradient(67deg, #ed2d2d 50%, #ed2d2d 50%, #ed2d2d 100%);
+    background-size: 21.73px 51.19px;
+}
+
+.waluigi{
+    background-image: linear-gradient(67deg, #723bad 50%, #723bad 50%, #723bad 100%);
+    background-size: 21.73px 51.19px;
+}
+
+h1{
+    background-size: 11.31px 11.31px;
+    text-align: center;
+    font-family: mariolettre;
+}
+
+p{
+    font-family: yoshilettre;
+    font-size: 20px;
+    color: white;
+}
+
+.textep{
+    margin-top: 15%;
+}
+
+.fondcarte{
+    background-color: #FF0099;
+    padding: 0;
+}
+
+.fondcarte2{
+    background-color: #2da0ed;
+}
+
+.fondcarte3{
+    background-color: #ed2d2d;
+}
+
+.fondcarte4{
+    background-color: #723bad;
+}
+
+html body{
+    background-color: rgb(253, 203, 109);
+}
+
+.haut {
+
+    word-wrap: break-word;
+    width: 100%;
+    height: 80px;
+    font-size: 3rem !important;
+    font-family: "mariolettre";  
+}
+
+.slide-right {
+	-webkit-animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(50px);
+              transform: translateX(50px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(50px);
+              transform: translateX(50px);
+    }
+  }
+
+  .fondrose{
+    background-color: #fe079d !important;
+  }
+  
+  .fondbleu{
+    background-color: #2da0ed !important;
+  }
+
+  .fondrouge{
+    background-color: #ed2d2d !important;
+  }
+
+  .fondviolet{
+    background-color: #723bad !important;
+  }
+
+.yoshia{
+  width: 250px;
+  margin-top: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.mx-auto{
+
+} 
+
+
+.yoshia{
+	-webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* NAVBAR */
+
+
 
 .navbar-toggler{
   width: 47px;
@@ -23,7 +177,7 @@
 
 .nav-link
 {
-font-family: "mariofont";	
+font-family: "mariolettre";	
 color: rgb(253, 203, 109);
 }
 
@@ -185,180 +339,9 @@ cursor: pointer;
 }
 
 
+/* BOUTON */
 
-
-@font-face
-{
-    font-family: "yoshilettre";
-    src : url("polices/lettreyoshi.ttf");
-}
-
-@font-face{
-    font-family: "mariolettre";
-    src : url("polices/lettremario.ttf");
-  }
-
-  .bounce-left {
-    -webkit-animation: bounce-left 0.8s both;
-            animation: bounce-left 0.8s both;
-  }
-  
-  @-webkit-keyframes bounce-left {
-    0% {
-      -webkit-transform: translateX(-48px);
-          transform: translateX(-48px);
-      -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-      opacity: 1;
-    }
-    24% {
-      opacity: 1;
-    }
-    40% {
-      -webkit-transform: translateX(-26px);
-          transform: translateX(-26px);
-      -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-    }
-    65% {
-      -webkit-transform: translateX(-13px);
-          transform: translateX(-13px);
-      -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-    }
-    82% {
-      -webkit-transform: translateX(-6.5px);
-          transform: translateX(-6.5px);
-      -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-    }
-    93% {
-      -webkit-transform: translateX(-4px);
-          transform: translateX(-4px);
-      -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-    }
-    25%,
-    55%,
-    75%,
-    87%,
-    98% {
-      -webkit-transform: translateX(0px);
-          transform: translateX(0px);
-      -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-    }
-    100% {
-      -webkit-transform: translateX(0px);
-          transform: translateX(0px);
-      -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-      opacity: 1;
-    }
-    }
-    @keyframes bounce-left {
-    0% {
-      -webkit-transform: translateX(-48px);
-          transform: translateX(-48px);
-      -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-      opacity: 1;
-    }
-    24% {
-      opacity: 1;
-    }
-    40% {
-      -webkit-transform: translateX(-26px);
-          transform: translateX(-26px);
-      -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-    }
-    65% {
-      -webkit-transform: translateX(-13px);
-          transform: translateX(-13px);
-      -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-    }
-    82% {
-      -webkit-transform: translateX(-6.5px);
-          transform: translateX(-6.5px);
-      -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-    }
-    93% {
-      -webkit-transform: translateX(-4px);
-          transform: translateX(-4px);
-      -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-    }
-    25%,
-    55%,
-    75%,
-    87%,
-    98% {
-      -webkit-transform: translateX(0px);
-          transform: translateX(0px);
-      -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-    }
-    100% {
-      -webkit-transform: translateX(0px);
-          transform: translateX(0px);
-      -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-      opacity: 1;
-    }
-    }
-  
-  .titre, .vert{
-    background-color: #12990e;
-    color: white;
-    margin-top: 80px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-
-.mx-auto
-{
-    width : 250px;
-    height : 250px;
-    
-}
-
-h1
-{
-    font-family: "mariolettre";
-}
-
-body
-{
-    background-color: rgb(253, 203, 109);
-}
-.card
-{
-    margin-top : 80px;
-}
-
-.image
- {
-    width: 478px;
-    height: 300px;
-    }
-
-.card-body
-
-{
-    background-color:#12990e;
-}
-
-
-p
-{
-    font-family: "yoshilettre";
-    font-size: 20px;
-}
-
-.btn
+.essaifin
 {
   color: white;
   font-family: "mariolettre";
@@ -448,46 +431,24 @@ p
 			  animation-timing-function: ease-out;
 	}
   }
-    
-   .bg-circle
-   {
-     display: inline-block;
-     width: 60px;
-     height: 60px;
-     padding: 14px 4px;
-     color: #ececec;
-     text-align: center;
-     border-radius: 50%;
-   }
-   
-   .bg-circle-outline
-   {
-     width: 50px;
-     height: 50px;
-     color:smoke;
-     padding: 8px 2px;
-     border: 2px solid;
-     border-color: smoke;
-     border-radius: 50%;
-   }
-   
-   
-   .bg-circle a, a:hover, .media a:focus
-   {
-     text-decoration: none !important;
-     outline: none;
-     color: #ececec;
-   }
 
-   .bg-circle-outline a, a:hover, .media a:focus
-   {
-     text-decoration: none !important;
-     outline: none;
-     color: #ececec;
-   }
-  
-   .page-footer {
-     background-image: url('images/bgred.jpg');
-     
-   }
-  
+
+  .titre, .vert{
+    background-color: #12990e;
+    color: white;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.mx-auto
+{
+    width : 250px;
+    height : 250px;
+
+}
+
+h1
+{
+    font-family: "mariolettre";
+}
