@@ -18,15 +18,14 @@ $(document).ready(function(){
 });
 
 
-
   function imgchange(element) {
-  var x = document.getElementById('show2')
+  var x = document.getElementById('imgswitch')
 
   x.setAttribute("src","https://ubistatic19-a.akamaihd.net/resource/fr-ca/game/rabbids/portal/yoshi%20cover_301841.jpg")
   }
 
   function imgchange2(element) {
-    var x = document.getElementById('show2')
+    var x = document.getElementById('imgswitch')
   
     x.setAttribute("src","https://www.actugaming.net/wp-content/uploads/2018/09/Yoshi-Switch.jpg")
     }
