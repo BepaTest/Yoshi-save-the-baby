@@ -34,10 +34,11 @@ $(document).ready(function(){
     x.setAttribute("src","https://i.ytimg.com/vi/srXw1ayn5Fs/maxresdefault.jpg")
   }
     }
- onkeypress = function(e){
-      if(e.charCode == 97 || e.charCode == 98){
+    onkeypress = function(e){
+      if(e.charCode == 97 || e.charCode == 98 || e.charCode == 65 || e.charCode == 66){
           imgchange2()
       }
   }
+    
     
 
