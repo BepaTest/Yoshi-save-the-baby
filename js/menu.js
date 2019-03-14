@@ -17,7 +17,7 @@ $(document).ready(function(){
   
 });
 
- function imgchange2(element) {
+   function imgchange2(element) {
     var x = document.getElementById('imgswitch')
     var v = x.getAttribute("src");
 
@@ -28,9 +28,9 @@ $(document).ready(function(){
   }
 
   if (v == 'https://www.actugaming.net/wp-content/uploads/2018/09/Yoshi-Switch.jpg') {
-    x.setAttribute("src","https://ubistatic19-a.akamaihd.net/resource/fr-ca/game/rabbids/portal/yoshi%20cover_301841.jpg")
+    x.setAttribute("src","https://images.wallpaperscraft.com/image/super_mario_galaxy_2_mario_dinosaur_yoshi_stars_2237_1280x720.jpg")
   }
-  if (v == 'https://ubistatic19-a.akamaihd.net/resource/fr-ca/game/rabbids/portal/yoshi%20cover_301841.jpg') {
+  if (v == 'https://images.wallpaperscraft.com/image/super_mario_galaxy_2_mario_dinosaur_yoshi_stars_2237_1280x720.jpg') {
     x.setAttribute("src","https://i.ytimg.com/vi/srXw1ayn5Fs/maxresdefault.jpg")
   }
     }
