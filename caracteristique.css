@@ -352,7 +352,7 @@ body
 }
 
 
-p
+p, label, .placeholder 
 {
     font-family: "yoshilettre";
     font-size: 20px;
@@ -490,4 +490,25 @@ p
      background-image: url('images/bgred.jpg');
      
    }
+
+   .formBackground{
+    background-image: url('images/bgred.jpg');
+    
+  }
+
+.placeholder 
+{
+    font-family: "yoshilettre";
+    font-size: 20px;
+    background-color: rgb(253, 203, 109);
+}
+
+label
+{
+  font-family: "yoshilettre";
+  font-size: 20px;
+  color : white;
+}
+
+
   
