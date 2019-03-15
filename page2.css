@@ -207,6 +207,12 @@ cursor: pointer;
     background-color: rgb(253, 203, 109);
 }
 
+/*Sourie changante */
+#image0
+{
+cursor: pointer;
+}
+
 /*Footer*/
 .page-footer {
   background-image: url("images/bgred.jpg");
