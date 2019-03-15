@@ -30,9 +30,10 @@
 
 
 html body {
-	 background-color: rgb(253, 203, 109);
+	
 	width: 100%;
 	cursor: auto;
+	background: url('https://ak2.picdn.net/shutterstock/videos/16719202/thumb/1.jpg') no-repeat;
 	background-size: cover;
 	height: 100%;
 
@@ -56,9 +57,10 @@ vertical-align: center;
  img.Yoshi {
  
  	margin-bottom: auto;
-width: 40%;
+width: 60%;
 min-height: 0;
 vertical-align: center;
+height: 100%;
 
 }
 
@@ -75,6 +77,10 @@ cursor: auto;
 
 
 } 
+
+.yoshi {
+	z-index: 1000;
+}
 
 
 
@@ -108,6 +114,7 @@ text-decoration: none;
 
 
  .btn {
+	 z-index: 1;
     font-family: 'mariolettre';
 	word-wrap: break-word;
 	width: 100%;
@@ -122,6 +129,7 @@ text-decoration: none;
 }
 
 .btn-warning {
+	z-index: 10;
 	color: white !important;
 }
 
@@ -169,8 +177,9 @@ text-decoration: none;
 
 .containerimg{
 	background-color: black;
-	display: none;
+display: flex;
 	border: 10px solid black;color: white;
+
 	
 
 
@@ -199,16 +208,168 @@ padding-right: 0px;
 .switch {
 	height:100%;
 	
-	display: none;
+
 	
 }
 
 .switch2 {
 	height: 100%;
-	display: none;
+	
+}
+
+
+#box {
+display: none;
 }
 
 
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
+.menu, 
+.menu .inner, 
+.menu .inner > li {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+ 
+.bouton {
+
+  display: block;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  z-index: 20;
+
+  transition: transform 2s ease;
+	border-radius: 100%;
+	
+}
+.bouton:before, 
+.bouton:after {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 30px;
+
+  position: absolute;
+  left: 23px;
+	top: 9px;
+	
+}
+.bouton:after {
+  width: 30px;
+  height: 2px;
+  left: 9px;
+  top: 23px;
+}
+ 
+.menu:hover .bouton{
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+ 
+.menu .inner{
+	background-color: #12990e;
+  display: block;
+  width: 48px;
+  height: 48px;
+ 
+  padding: 9px;
+  transition: width 1s ease, height 1s ease;
+	border-radius: 100%;
+
+}
+ 
+.menu:hover .inner{
+  width: 700px;
+	height: 700px;
+	border: 2px solid black;
+
+}
+ 
+.menu .inner > li{
+	transition: left .3s ease, top .3s ease;
+
+}
+ 
+.menu:hover .inner > li:nth-child(1){left: 20%;}
+.menu:hover .inner > li:nth-child(2){top: 20%;}
+.menu:hover .inner > li:nth-child(3){left: 80%;}
+.menu:hover .inner > li:nth-child(4){top: 80%;}
+ 
+.menu .fa, 
+.menu .inner > li .fa {
+  color: #333; 
+  font-size:30px;
+}
+ 
+.test {
+ display: none;
+ font-family: 'mariolettre';
+ font-size: 1.2em;
+ 
+
+}
+
+.menu:hover .test {
+ display: flex;
+ color: white;
+ 
+}
+
+.test2 {
+	display: none;
+	font-family: 'mariolettre';
+	font-size: 1.3em;
+
+	
+ 
+ }
+
+ .test3 {
+	display: none;
+	font-family: 'mariolettre';
+	font-size: 1.2em;
+	width: 100%;
+	height: 100%;
+	
+ 
+ }
+
+ .menu:hover .test2 {
+	display: flex;
+	color: white;
+	
+ }
+
+ .menu:hover .test3 {
+	display: flex;
+	color: white;
+	
+ }
+
+ .foot {
+	 background: url('https://ih0.redbubble.net/image.188770954.9190/pp,550x550.jpg');
+	 width: 100%;
+	 height: 200px;
+	 bottom: 0%;
+	 position: absolute;
+ }
+
+ .sun {
+
+	 position:absolute;
+	 top: 0%;
+	 right: 0%;
+	 height: 100px;
+	 width: 10%;
+
+ }
 
