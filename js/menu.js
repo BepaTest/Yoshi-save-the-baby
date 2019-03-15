@@ -1,23 +1,16 @@
-$(document).ready(function(){
-  $("#show1").click(function(){
-    $(".play").hide(1000);
-  });
-  $("#show").hover(function(){
-    $(".border2").show(400).css('display', 'flex');
-  });
-   $("#show1").click(function(){
-    $(".switch").show(10).css('display', 'flex');
-  });
-  $("#show1").click(function(){
-    $(".border2").show(10).css('display', 'flex');
-  });
-  $("#show1").click(function(){
-    $(".containerimg").show(10).css('display', 'flex');
-  });
-  
-});
 
-   function imgchange2(element) {
+
+jQuery(document).ready(function($) {
+  $(".centered").each(function() {
+      $(this).css({
+          "margin-left": "-" + ($(this).width() / 2)+"px",
+          "margin-top": "-" + ($(this).height() / 2)+"px"
+      });
+  });
+});
+ 
+
+  function imgchange2(element) {
     var x = document.getElementById('imgswitch')
     var v = x.getAttribute("src");
 
@@ -39,6 +32,22 @@ $(document).ready(function(){
           imgchange2()
       }
   }
-    
-    
+ 
 
+    
+ function yoshanim(element) {
+    let me = document.getElementById('box')
+    
+    
+    var current = window.getComputedStyle(me, null).visibility;
+    if (current === 'hidden') {
+      
+      me.style.visibility="visible"
+    }
+  
+    if (current === 'visible') {
+      me.style.visibility="hidden"
+    }
+  }
+
+  
