@@ -20,7 +20,6 @@
     padding-left: 0px;
 }
 
-
 .titre, .vert{
     background-color: #12990e;
     color: white;
@@ -48,6 +47,20 @@
     color: white;
 }
 
+.presjeu{
+		padding-top: 40px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+}
+
+.jeujacket{
+	  padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -56,7 +69,14 @@ img {
 .card {
     max-width: 100%;
     height: auto; 
-    text-align: center;
+		text-align: center;
+		background-color: #12990e;
+		margin-top: 20px;
+		margin-bottom: 20px;
+}
+
+.card-body{
+	height:
 }
 
 .texte h1 {
@@ -64,7 +84,8 @@ img {
 }
 
 h5 {
-    font-size: 1.8em;
+		font-size: 1.8em;
+		color: white;
 }
 
 h2{
@@ -98,7 +119,8 @@ font-family: doctor;
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
     text-decoration: none;
-    overflow: hidden;
+		overflow: hidden;
+		font-family: yoshi;
 }
 
 .button-three:hover{
@@ -136,7 +158,7 @@ font-family: doctor;
      padding: 14px 4px;
      color: #ececec;
      text-align: center;
-     border-radius: 50%;
+		 border-radius: 50%;
    }
    
    .bg-circle-outline
@@ -166,7 +188,8 @@ font-family: doctor;
    }
   
    .page-footer {
-     background-image: url('images/bgred.jpg');
+		 background-image: url('images/bgred.jpg');
+		 font-family: yoshi;
      
 }
 .page-footer p{
