@@ -2,6 +2,16 @@ const backJeu = document.getElementById("jacket")
 backJeu.style.background = "rgb(253, 203, 109)";
 
 
+/* bouton achat*/
+
+$( document ).ready(function() {
+    $('.trigger').click(function() {
+       $('.modal-wrapper').toggleClass('open');
+      $('.page-wrapper').toggleClass('blur');
+       return false;
+    });
+  });
+
 function openWin(url){
     newwin=window.open(url,'','width=400,height=400,top=200,left=200');
     if(newwin){
