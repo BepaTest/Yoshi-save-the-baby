@@ -490,4 +490,19 @@ p
      background-image: url('images/bgred.jpg');
      
    }
-  
+/*YOSHI VOL*/
+
+
+.toUp {
+  transition: width 2s, height 2s, transform 2s;
+  transform: translateY(-40px);
+}
+
+
+/*boutons nintendo*/
+.nintendoBouton
+{
+  cursor: pointer;
+}
+
+
