@@ -1,17 +1,19 @@
+window.onload = init;
+
+function init(){
 let modal = document.getElementById('id01');
 
 let ptscount = 0
 let modal2 = document.getElementById('id011');
-
+console.log(modal2)
 
 window.onclick = function(event) {
-  if (event.target == modal || event.target == modal2) {
+  if (event.target == modal || event.target == modal2 || event.key === 27) {
     modal.style.display = "none";
     modal2.style.display = "none";
   }
 }
 let pts = document.getElementById('pts');
-
 
 
 
@@ -22,16 +24,15 @@ pts.innerHTML = ptscount + " pts";
 
 }
 
-
-count()
-
-
 $(document).keyup(function(e) {
   if (e.key === "Escape") { // escape key maps to keycode `27`
   modal.style.display = "none";
   modal2.style.display = "none";
  }
 });
+
+count()
+}
 
 /* this is the password input field */
 let password = target.previousElementSibling;
@@ -117,5 +118,8 @@ else  {
 document.addEventListener("DOMContentLoaded", function() {
   // code
  user = new Object();
- 
+ let modal = document.getElementById('id01');
+
+let ptscount = 0
+let modal2 = document.getElementById('id011');
 });
