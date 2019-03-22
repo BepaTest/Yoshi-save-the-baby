@@ -1,4 +1,191 @@
 @font-face{
+  font-family: "mariofont";
+  src : url("polices/lettremario.ttf");
+}
+
+body, html {
+height: 100%;
+font-size: 1.4vh;
+font-family: mariofont;
+}
+
+.row {
+margin-bottom: 0;
+}
+
+body {
+box-sizing: border-box;
+}
+
+/* nav */
+.danavbar{
+position: fixed !important;
+background: rgba(0, 0, 0, 0.6) !important;
+padding:10px 20px;
+font-family: mariofont;
+width: 100%;
+z-index: 100;	
+}
+
+
+.danav-link {
+text-transform: uppercase;
+background: linear-gradient(to right,  green, yellow 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 2vh;
+font-family: mariofont;
+};
+
+/* burger */
+.danavbar-toggler{
+width: 47px;
+height: 34px;
+border:none;	
+}
+
+/*bouton accueil dans menu burger*/
+.daaccueil{
+display:none;
+}
+
+/* btn */
+a .dabtn{
+  padding: 0 0;	
+}
+
+.daactive {
+  z-index: 100;
+}
+
+
+a:hover .dabtn {
+  font-size: 2vh;
+  transition: 0.5s;	
+}
+
+a .dabtn {
+width: 200px;
+height: 80px;
+border: 1px solid black;
+}
+
+.dabtn:hover {
+color: white;
+}
+
+
+
+.datransit {
+transition-property: top;
+-webkit-transition-property: top;
+transition-duration: .5s;
+transition-timing-function: ease-out;
+top: 0;
+position: relative;
+}
+
+.datransit:hover {
+top: 30px;
+}
+
+.daimg-circle
+{
+padding-left: 30px;
+}
+
+/* media */
+@media screen and (min-width: 200px) and (max-width: 990px) {
+
+.daespace_entre{
+margin-top: 0%;
+margin-bottom: 0%;
+}	
+
+.daoeuf
+{
+display: none;
+}
+
+.daandtest {
+display: none;
+}
+
+.dalogo{
+display: none;
+}
+
+.accueil{
+display: block;
+}
+
+.join {
+font-size: 1.8vh;
+}
+
+.connexion {
+text-transform: uppercase;
+background: linear-gradient(to right,  green, yellow 100%) !important;
+background: transparent !important;
+border: none !important;
+color:  #DC143C  !important;
+
+}
+
+.inscription {
+text-transform: uppercase;
+background: linear-gradient(to right,  green, yellow 100%) !important;
+background: transparent !important;
+border: none !important;
+color:  yellow  !important;
+
+}
+
+}
+/* btn */
+
+.join {
+font-size: 2.2vh;
+}
+
+.logo{
+margin-left: 20%;
+padding-bottom: 10%;	
+}
+
+.daespace{
+padding-left:1%;
+padding-right:1%;
+}
+
+.dadecal_inscription{
+  padding-right:10%;
+}
+
+.dadecal_menu{
+margin-right:5%;
+}
+
+.dadecal_langue{
+margin-left:5%;
+}
+
+.dahauteur{
+margin-top: 3%;
+margin-bottom:2%;
+}
+
+
+.dapanier_btn{	
+padding-left:0%;
+padding-right:0%;
+padding-bottom:0%;
+margin-top: 2%;
+margin-bottom:2%;
+}
+
+
+@font-face{
     font-family: "mariolettre";
     src : url("polices/lettremario.ttf");
   }
