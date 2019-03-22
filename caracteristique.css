@@ -34,7 +34,7 @@ color: #12990e;
 
 .navbar
 {
-background: rgba(0, 0, 0, 0.6) !important;;
+background-image:url("images/bgred.jpg");
 padding-top: 0px;
 padding-bottom: 0px;
 }
